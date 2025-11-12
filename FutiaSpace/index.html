@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <!-- NAV -->
+     <nav class="nav">
+        <div class="nav-brand">FutiaSpace</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="notifications.html">Notifications</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><button id="logoutBtn">Logout</button></li>
+        </ul>
+     </nav>
+
+     <section class="new-post container">
+        <textarea id="postCaption" placeholder="What's happening?"></textarea>
+        <input type="file" id="postImage" accept="image/*">
+        <button id="postBtn">Post</button>
+     </section>
+
+     <section id="feed" class="container"></section>
+
+     <script type="module" src="js/main.js"></script>
+</body>
+</html>
